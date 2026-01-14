@@ -1,0 +1,4271 @@
+[
+	{
+		"prompt": "Honestly, you can never have too many <BLANK>",
+		"safetyquips": [
+			"beepers",
+			"frenemies",
+			"reasons to stay inside"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "You know a restaurant is bad when the waiter says “<BLANK>”",
+		"safetyquips": [
+			"Shhhh... only get the house salad",
+			"Would you like to hear my mixtape?",
+			"Run. RUN!!!!!"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "That horror movie was so scary until the killer turned out to be <BLANK>",
+		"safetyquips": [
+			"society",
+			"a slippery banana peel",
+			"a very average horse"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What would you call your ANTI-social network?",
+		"safetyquips": [
+			"Macebook",
+			"Instaham",
+			"UnlinkedIn"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "An old-fashioned curse word that nobody uses anymore",
+		"safetyquips": [
+			"Ham-tootin'",
+			"Flibbertigibbet",
+			"Cod-dangit"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What’s the worst thing to wear when running a marathon?",
+		"safetyquips": [
+			"a cozy caftan",
+			"sandpaper shorts",
+			"a frown"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Your fish are bored! You should put a <BLANK> in their tank to amuse them.",
+		"safetyquips": [
+			"tiny stand-up comedian",
+			"Nintendo 64",
+			"\"Chicken Soup for the Soul\" book"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "In this house, “Grandma” and “Grandpa” are known as <BLANK>",
+		"safetyquips": [
+			"the enemy",
+			"Gim-Gammy and Paul",
+			"Dr. and Mrs. Charleston"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "“Pokémon Trainer” is a much nobler job title than “Pokémon <BLANK>”",
+		"safetyquips": [
+			"gambler",
+			"incinerator",
+			"life coach"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Archaeologists won’t admit they’ve discovered cave paintings of <BLANK>",
+		"safetyquips": [
+			"the first hoagie",
+			"mindless small talk",
+			"our ugliest ancestor"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The secret thing cats do when we’re not looking",
+		"safetyquips": [
+			"Invest in bonds",
+			"Something interesting for once",
+			"Make scrambled eggs"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A good sign that you’re a terrible farmer",
+		"safetyquips": [
+			"silos filled with jelly beans",
+			"wear a three-piece suit on the tractor",
+			"can't spit fer nuthin'"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "If your childhood toys came to life, they would probably say “<BLANK>”",
+		"safetyquips": [
+			"You're disgusting",
+			"I thought what we had was special",
+			"Why did you wet the bed so much?"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The worst restaurant: <BLANK> Hut",
+		"safetyquips": [
+			"Butter",
+			"Loose Kale",
+			"No Handwashing"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What skin tags probably taste like",
+		"safetyquips": [
+			"niblets of corn",
+			"crab meat",
+			"candy canes"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What your mom thinks the word “yeet” means",
+		"safetyquips": [
+			"young feet",
+			"fake meat",
+			"what little lambs say"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "You know it’s a party when someone shows up with <BLANK>",
+		"safetyquips": [
+			"emotional baggage",
+			"lukewarm dip",
+			"loose firecrackers"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "You know the lottery scratch-off ticket won’t pay out much when the goal is to get three <BLANK>",
+		"safetyquips": [
+			"cigarette butts",
+			"socks with holes in them",
+			"cherry pits"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "A surprising new use for kale",
+		"safetyquips": [
+			"Wound dressing",
+			"Decoupage",
+			"Jet fuel"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Believe it or not, kids are going crazy over these <BLANK> trading cards",
+		"safetyquips": [
+			"Pro-Capitalism",
+			"Blank",
+			"Math!"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A name for a music festival your mother would approve of",
+		"safetyquips": [
+			"Easy Listening Fest",
+			"Hot Meal-a-palooza",
+			"Home by Eleven"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What defeats rock, paper AND scissors?",
+		"safetyquips": [
+			"hook 'em horns",
+			"the human heart",
+			"a military-issue flash grenade"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Along with tall, grande and venti, Starbucks should add a new coffee size: <BLANK>",
+		"safetyquips": [
+			"Chonky",
+			"Hypertensionetti",
+			"Bucket"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The nicest compliment you can give to a snake",
+		"safetyquips": [
+			"You're looking especially scaly today",
+			"That's the widest jaw I've ever seen",
+			"Hey baby, shake that rattle for me"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Under a full moon, a small number of people turn into <BLANK>",
+		"safetyquips": [
+			"real jerks",
+			"whatwolves",
+			"their younger selves"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What the US president counts at night instead of sheep",
+		"safetyquips": [
+			"Barrels of oil",
+			"selfies",
+			"Press Secretaries"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A rejected slogan for milk",
+		"safetyquips": [
+			""
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "There’s nothing sexier than a tall, beefy boy who knows how to <BLANK>",
+		"safetyquips": [
+			"build his own gaming PC",
+			"be emotionally available",
+			"pull off overalls"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "What’s at the core of the planet named after you?",
+		"safetyquips": [
+			"Nachos",
+			"Chronic anxiety",
+			"The stuff Pringles are made of"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Name of an award show that celebrates the most mediocre movies of the year",
+		"safetyquips": [
+			"The Decents",
+			"The \"Meh\"mmies"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Relationship rules: Never go to bed angry and never wake up <BLANK>",
+		"safetyquips": [
+			"a werewolf",
+			"your dog",
+			"in a second location"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "He’s just not that into you... because he’s into <BLANK>",
+		"safetyquips": [
+			"Beyblades",
+			"perfecting his sourdough starter",
+			"stamp collecting"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Hard to believe but Madame Tussauds now has a wax statue of <BLANK>",
+		"safetyquips": [
+			"the inventor of Poo-Pourri",
+			"you, the viewer at home",
+			"your future husband"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The worst words to end a scary story",
+		"safetyquips": [
+			"the killer was let out early on good behavior",
+			"Turns out the real monster was society",
+			"Thank you for reading my cover letter"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The absolute dumbest question to pose in Yahoo! Answers",
+		"safetyquips": [
+			"what do I feel like eating?",
+			"what's my favorite color?",
+			"why does the sun keep rising?"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A good use for all your old CDs",
+		"safetyquips": [
+			"obnoxious earrings",
+			"enjoying the hits of the '90s",
+			"radical coasters"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The worst breakup line: “It’s not you, it’s <BLANK>”",
+		"safetyquips": [
+			"my hotter friend",
+			"my raised standards",
+			"...actually it definitely is you"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "It would be terrifying to have a painting of <BLANK> above your bed",
+		"safetyquips": [
+			"Count Dooku",
+			"Mr. Peanut",
+			"your dead pet"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A cool nickname for your bowel movements",
+		"safetyquips": [
+			"The Pain Train",
+			"Farty Friends",
+			"The Stinky Boyz"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "A sure sign you are trapped in a horrible nightmare",
+		"safetyquips": [
+			"teeth keep falling out",
+			"keep losing ability to fly",
+			"you're sharing your bed with a wolverine"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "First, she asked for legs, then the Little Mermaid asked for <BLANK>",
+		"safetyquips": [
+			"peep toe wedges",
+			"an annulment",
+			"a sequel"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What every woman is hiding under her bangs",
+		"safetyquips": [
+			"an all-seeing third eye",
+			"smaller, worse bangs",
+			"a tiny Bugs Bunny tattoo"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The generational nickname for babies born ten years from now",
+		"safetyquips": [
+			"Baby Gloomers",
+			"Gen Why",
+			"Willenials"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A cute nickname for your butt",
+		"safetyquips": [
+			"my lower shoulders",
+			"portable seat cushion",
+			"Butty Booty Butt Butt"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A comment that has NEVER been made on the internet",
+		"safetyquips": [
+			"I agree with everything in this post",
+			"I'm happy to be proven wrong!",
+			"I don't have an opinion."
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A terrible new name to get from the Witness Protection Program",
+		"safetyquips": [
+			"Garth Vadar",
+			"Tabitha Hinkledorp",
+			"Barry S. Runningfromthemafia"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "This year’s LEAST popular kids’ toy is: “The <BLANK>”",
+		"safetyquips": [
+			"Existential Dread",
+			"Stock Market",
+			"Plain block of wood"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "You know your date is a slob when you find <BLANK> in the middle of their living room",
+		"safetyquips": [
+			"a fresh turd",
+			"cans of tuna fish"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The most erotic amusement park ride is called the <BLANK>",
+		"safetyquips": [
+			"The Tunnel of Making Love",
+			"The Merry-Go-Down",
+			"The Scrambler"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "The name of Snow White’s millennial eighth dwarf",
+		"safetyquips": [
+			"Techy",
+			"Emoji",
+			"Bodhi"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "“Haste makes <BLANK>”",
+		"safetyquips": [
+			"a terrible casserole",
+			"falling down stairs more possible",
+			"for a bad hair day"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "If you could fart to the melody of one song, it would be <BLANK>",
+		"safetyquips": [
+			"Say My Name",
+			"Every Breath You Take",
+			"Gangnam Style"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What Cookie Monster snacks on when nobody’s looking",
+		"safetyquips": [
+			"kale chips",
+			"celery",
+			"carrots"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A better name for the TV show Friends",
+		"safetyquips": [
+			"White People Problems",
+			"Codependent Relationships",
+			"Two Nice Apartments"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Something the Pope might sell on Home Shopping Network",
+		"safetyquips": [
+			"Jesus-shaped waffle iron",
+			"\"Miracle\" hair growth oil",
+			"Vatican timeshares"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The only SAFE sex is <BLANK>",
+		"safetyquips": [
+			"holding hands",
+			"between two health inspectors",
+			"ear play"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "A great way to stand out at comic book conventions is to dress like <BLANK>",
+		"safetyquips": [
+			"a food court counter with no lines",
+			"a normal person, for once",
+			"someone about to get kicked out for nudity"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "In the lamest campfire tale, the young couple is terrorized by <BLANK>",
+		"safetyquips": [
+			"their mother-in-laws",
+			"student loan debt"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Still-life paintings would be more interesting if they were bowls of <BLANK>",
+		"safetyquips": [
+			"fancy bugs",
+			"caramels",
+			"treasure maps"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A fun nickname for the worst kid on a sports team",
+		"safetyquips": [
+			"MVP",
+			"Johnny Bad Feet",
+			"Flip Flop"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The show must go on! Unless there is <BLANK> in the audience.",
+		"safetyquips": [
+			"candy",
+			"a horse",
+			"too much gas"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The worst thing to be inscribed on a welcome mat",
+		"safetyquips": [
+			"Our Home Is Legally Your Home",
+			"Hello forever!",
+			"Please take off your feet"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "An adorable name for sideburns",
+		"safetyquips": [
+			"cheek shingles",
+			"hair squares",
+			"facial swatch"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "One-Star Hotel Review: “Terrible mattress, no towels and <BLANK>”",
+		"safetyquips": [
+			"tub was stolen",
+			"big hole in wall where door should be",
+			"had to share bed with bellhop"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The best name for a mom gang",
+		"safetyquips": [
+			"Heck's Angels",
+			"The Mighty Karens",
+			"The Bottle Brigade"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Casinos hate it when you walk up to the blackjack table and yell: “<BLANK>!”",
+		"safetyquips": [
+			"Hole in one!",
+			"I know game theory!",
+			"Elvis is alive!"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "“A good man is hard to <BLANK>”",
+		"safetyquips": [
+			"buy socks for",
+			"fold into quarters",
+			"locate in a crowded theater"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A great sport that never caught on: <BLANK> on ice skates",
+		"safetyquips": [
+			"logrolling",
+			"trampoline"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The one thing you should never slather mayonnaise on",
+		"safetyquips": [
+			"armpits",
+			"roadkill",
+			"an infected wound"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The worst pattern for a women's dress print",
+		"safetyquips": [
+			"blobfish",
+			"sticks of dynamite",
+			"pots and pans"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "“The meek shall inherit <BLANK>”",
+		"safetyquips": [
+			"a set of encyclopedias",
+			"a course on public speaking",
+			"their uncle's stamp collection"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A scrapbook nobody wants to see would be devoted to <BLANK>",
+		"safetyquips": [
+			"ceramic clown masks",
+			"sewer rats",
+			"photos of total darkness"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The worst thing to use as confetti",
+		"safetyquips": [
+			"BEES!",
+			"a million paperclips",
+			"the deed to the ranch"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Gruesome! Instead of prickles, there’s a cactus that protects itself with <BLANK>",
+		"safetyquips": [
+			"boneless chicken wings",
+			"smaller cacti",
+			"pus"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A terrible model name for a self-driving car",
+		"safetyquips": [
+			"Cliffdiver",
+			"Wanderer",
+			"Rammer"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Dear Science, stop already! We know enough about <BLANK>!",
+		"safetyquips": [
+			"the empty void of space",
+			"unlikely animal friendships",
+			"male pattern baldness"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A more respectable way of saying “junk in the trunk” is <BLANK>",
+		"safetyquips": [
+			"knick-knacks in the back",
+			"fine behind",
+			"less blunt than the front"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The best name for a rideshare company to stand out from competitors",
+		"safetyquips": [
+			"Silent Ride",
+			"Clown Cars Unlimited",
+			"Cars with Wings"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Your last thought before passing into the afterlife",
+		"safetyquips": [
+			"baba booey",
+			"I wish I had gotten into more internet fights",
+			"Hope God is hot"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The dish that gets you uninvited from future potlucks",
+		"safetyquips": [
+			"Loose handfuls of chili",
+			"Edible-ish silica packets",
+			"Haggis for a crowd"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "You know it’s bad when your mom says, “I’m not mad, I’m <BLANK>”",
+		"safetyquips": [
+			"full of rage",
+			"leaving",
+			"past feeling emotions"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A pickup line you might say to someone at the library",
+		"safetyquips": [
+			"May I feel your spine?",
+			"You know, Dewy Decimal was my father.",
+			"My love for you is no fiction"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "It’s a bold choice to send someone a bouquet of <BLANK>",
+		"safetyquips": [
+			"Pringles",
+			"Loose grapes",
+			"snakes"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The worst thing to yell from a clothing store dressing room",
+		"safetyquips": [
+			"My water broke!",
+			"I hope you didn't want this one back.",
+			"What a buffet for me, the Jeans Eater!"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Mother called you a “toddler tyrant” when you <BLANK>",
+		"safetyquips": [
+			"made the class swear fealty to your kingdom",
+			"conducted regular toy executions",
+			"violated the Geneva Conventions"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Hate Valentine’s Day? There’s a new holiday called <BLANK>",
+		"safetyquips": [
+			"Basement Gaming Day",
+			"Lonely Dive Bar Day",
+			"Single 'n Loving It Day"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The name of an appointment scheduling app nobody downloads",
+		"safetyquips": [
+			"Maybe Later",
+			"Punk-tual",
+			"Only Wednesdays"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Family secret! Grandma keeps her cash in <BLANK>",
+		"safetyquips": [
+			"other people's bank accounts",
+			"her motorcycle",
+			"visible"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Name for a wacky sitcom about ancient philosophers",
+		"safetyquips": [
+			"That's Our Plato!",
+			"Three Men and a Theorem",
+			"Greek's Company"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What used to have wings before God took away its power of flight?",
+		"safetyquips": [
+			"electric guitars",
+			"hot sauce",
+			"the snapping turtle"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The name of the tamest action movie ever made",
+		"safetyquips": [
+			"The Slow and the Serene",
+			"Rambo's Porch Swing",
+			"Spider-Man Quarantined at Home"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "“Fool me once, shame on you. Fool me twice, <BLANK>”",
+		"safetyquips": [
+			"hoo boy, I'm not doing too good, huh",
+			"I'll see you in COURT",
+			"I love being fooled! Hooray!"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The best name for a gamers-only utopia",
+		"safetyquips": [
+			"Stardew Valley",
+			"Nintendoland",
+			"World of Warcraft"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A nickname for a big, bushy beard",
+		"safetyquips": [
+			"chin topiary",
+			"Sully from Monsters Inc",
+			"Teddy Beard"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A pretty compelling reason to stop wiping your butt",
+		"safetyquips": [
+			"Save the trees",
+			"Insurance for introverts",
+			"TP better for making mummies anyway"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The weirdest video game: <BLANK> Simulator",
+		"safetyquips": [
+			"interior latex paint",
+			"burnt toast",
+			"exfoliation"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A fairy tale that never caught on: <BLANK> and the Beast",
+		"safetyquips": [
+			"The Influencer",
+			"The Tiger King",
+			"A Metaphor for Society"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The next Pixar movie will be about a talking <BLANK>",
+		"safetyquips": [
+			"Pixar animator asking for time off",
+			"bottle of massage oil",
+			"laundry basket"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A contestant’s job title you would NOT be surprised to see on The Bachelor",
+		"safetyquips": [
+			"Fun Enthusiast",
+			"Animal Protector",
+			"Gift Wrap Specialist"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The name of a substitute teacher no student would mess with",
+		"safetyquips": [
+			"Mr. Roadkill",
+			"Dean Destroya",
+			"Mrs. Decepticon"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Whatever you do, do NOT put sriracha on <BLANK>",
+		"safetyquips": [
+			"your eyes",
+			"your birthday cake",
+			"your cousin"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "You know you’re super bored when you fill out the “Which <BLANK> Are You” quiz",
+		"safetyquips": [
+			"pavement brick",
+			"patch of moss",
+			"roadie for A Flock of Seagulls"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The strangest clickbait headline: “Hot <BLANK> Are In Your Area”",
+		"safetyquips": [
+			"Toms",
+			"Stovetops",
+			"Podiatrists"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A truly innovative technology would be <BLANK>-canceling headphones",
+		"safetyquips": [
+			"cable",
+			"uninteresting people",
+			"ear"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The name of a cologne that would be a woman repellent",
+		"safetyquips": [
+			"Eau De Fedora",
+			"Axe: Garbage Truck",
+			"pure corn syrup"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Doctors Without Borders is a much better organization than Doctors Without <BLANK>",
+		"safetyquips": [
+			"Medical Degrees",
+			"Pants",
+			"Border Collies"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The weirdest celebrity demand in a rider contract: The greenroom MUST have <BLANK>",
+		"safetyquips": [
+			"a second, smaller greenroom",
+			"a way to make me feel whole again",
+			"the biggest hoagie you've ever seen"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The most memorable category you’d ever see on Jeopardy!",
+		"safetyquips": [
+			"Impotent Potables",
+			"Alex Trebek's Favorite Jams",
+			"Must Not Be Answered in Form of Question"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A warning that should come with alcohol: “May Cause <BLANK>!”",
+		"safetyquips": [
+			"Empty Promises",
+			"Disappointment",
+			"Unexpected late-night Amazon orders"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "What unicorn meat tastes like",
+		"safetyquips": [
+			"marshmallows",
+			"A very young elephant",
+			"dinosaur gummies"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "Something that should never be described as “juicy”",
+		"safetyquips": [
+			"a corpse",
+			"a political campaign",
+			"a bunny rabbit"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A reminder that pops up on the Devil’s phone: “Remember to <BLANK> today!”",
+		"safetyquips": [
+			"smile",
+			"get God's kid a b-day present",
+			"buy eggs, milk, brimstone"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A fun nickname for tampons",
+		"safetyquips": [
+			"Sponge friends",
+			"Blood buddies",
+			"Menstruation reclamations"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The next big hit Broadway musical is going to be about <BLANK>",
+		"safetyquips": [
+			"Rent II: Mortgage Payment",
+			"Guys & Dolls & Cops & Cowboys",
+			"North Side Story"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Good Idea: reusable bags. Bad Idea: reusable <BLANK>",
+		"safetyquips": [
+			"lunch meat",
+			"breakup texts",
+			"toilet paper"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The weirdest thing your Uber driver could offer you",
+		"safetyquips": [
+			"Some actually good advice",
+			"The car",
+			"A bag of loose mice"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Why do babies’ heads smell so good?",
+		"safetyquips": [
+			"Delicious jelly filling",
+			"nature wants us to lick babies",
+			"Perfect seasoning in the womb"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What toddlers would buy if they had mad Ca$h",
+		"safetyquips": [
+			"Respect",
+			"cookie ladder",
+			"Upgrade Onesie to a Twosie"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "An appropriate pickup line for church",
+		"safetyquips": [
+			"Didn't I see you here last Sunday?",
+			"What's your confirmation name?",
+			"This is usually the only place I kneel"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "When your Roomba is charging, what does it dream about?",
+		"safetyquips": [
+			"Nothing but murder",
+			"Escape",
+			"Dating the cat"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Who knew police give tickets for <BLANK>?",
+		"safetyquips": [
+			"not staying in your bowling lane",
+			"impersonating police",
+			"having a bad hair day"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Something you should never order at a business lunch",
+		"safetyquips": [
+			"sloppy joes",
+			"plain tap water",
+			"dinosaur nuggets"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A terrible idea for a children’s pop-up book: The Adventures of <BLANK>",
+		"safetyquips": [
+			"Bob the Tapeworm",
+			"GWAR",
+			"The Man Who Will Kill Your Parents"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Adults should be able to go door-to-door on Halloween and get <BLANK>",
+		"safetyquips": [
+			"drunk",
+			"away from their spouse",
+			"a quick massage"
+		],
+		"us": true,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "Everyone was sad when they saw the piñata was full of <BLANK>",
+		"safetyquips": [
+			"donkey organs",
+			"helium",
+			"regret"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Something that would definitely NOT taste better pickled",
+		"safetyquips": [
+			"chocolate cake",
+			"my husband",
+			"bubblegum"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A better name for skinny-dipping",
+		"safetyquips": [
+			"Funky Dunking",
+			"Mash 'n Splash",
+			"Naked Pool Time"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Two words that will get a big laugh as a callback later in the game",
+		"safetyquips": [
+			"Larry Seinfeld",
+			"hunky chunk",
+			"sloppy daddy"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "If they made a candle of your life, it would smell like <BLANK>",
+		"safetyquips": [
+			"day-old Doritos",
+			"chronic depression",
+			"gamer fuel"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Taco Tuesdays are so much better than <BLANK> Wednesdays",
+		"safetyquips": [
+			"weeping",
+			"wet taco",
+			"welding"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A rejected Dr. Seuss book title: Oh, The Places You’ll <BLANK>",
+		"safetyquips": [
+			"Only See in Magazines",
+			"Leave Shortly After Arriving",
+			"Need to Clean"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A rejected Christmas song: “Santa Claus Is Coming to <BLANK>”",
+		"safetyquips": [
+			"Freak You Out",
+			"Bermuda",
+			"Get What's His!"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "You know your doctor is an idiot when he says, “I need ten cc’s of <BLANK> STAT!”",
+		"safetyquips": [
+			"Clorox",
+			"good thoughts",
+			"bees"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Hurrah! The United States is the world leader in <BLANK>",
+		"safetyquips": [
+			"ignoring the metric system",
+			"King Kong attacks",
+			"Coca-Cola flavors"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A bumper sticker you’d consider displaying: “Ask Me About My <BLANK>”",
+		"safetyquips": [
+			"impulsive spending habits",
+			"dreams",
+			"trunk contents"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Werewolves have TWO weaknesses: silver bullets and <BLANK>",
+		"safetyquips": [
+			"standardized testing",
+			"rom-coms",
+			"a pint of rocky road"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The dumbest petition would push for <BLANK>",
+		"safetyquips": [
+			"return to 90s style cell phone ringtones",
+			"free breadsticks at all restaurants",
+			"National Online Troll Day"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Nobody would greenlight a kid’s game show called “Where in the World is <BLANK>?”",
+		"safetyquips": [
+			"the ocean",
+			"a lean pastrami sandwich"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The sexiest dessert",
+		"safetyquips": [
+			"banana splits",
+			"eggplant emoji a la mode",
+			"apple pie on occasion"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Someone who looks good is a “snack,” but someone who looks REALLY GOOD is a <BLANK>",
+		"safetyquips": [
+			"Reuben sandwich",
+			"midnight buffet",
+			"banana split"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A website just for grandpas: www.<BLANK>.com",
+		"safetyquips": [
+			"khaki pants",
+			"judgement",
+			"Steely Dan"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The quickest way to become the most popular kid in school",
+		"safetyquips": [
+			"Two words: infinite milkshakes",
+			"Kidnap the prom king"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What the coolest grandparent slips into a birthday card",
+		"safetyquips": [
+			"winning bingo card",
+			"a little extra ice cream",
+			"Spongebob's phone number"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What the most popular kid from your high school is probably doing right now",
+		"safetyquips": [
+			"working at the car dealership",
+			"regretting his choices",
+			"his taxes"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Susan has such a youthful glow ever since she started washing her face with <BLANK>!",
+		"safetyquips": [
+			"pancake batter",
+			"Young Face IPA",
+			"balsamic vinegar"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Avoid the classified post that offers “Free <BLANK> to Good Home”",
+		"safetyquips": [
+			"opened jar of mayo",
+			"dessert"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Coffee shops always get names wrong. They should just hold up an order and shout “<BLANK>!”",
+		"safetyquips": [
+			"Anybody!",
+			"Tall guy!"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The best way to set the mood is to turn down the lights and turn up the <BLANK>",
+		"safetyquips": [
+			"jams",
+			"smooches"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "An unlikely spokesperson for vaping",
+		"safetyquips": [
+			"my great aunt",
+			"a cartoon cigarette",
+			"my yoga instructor"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Prison would actually be super fun if only it had <BLANK>",
+		"safetyquips": [
+			"show choir",
+			"a roller coaster",
+			"weekly bake-offs"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The most outrageous thing you can smuggle inside a baguette",
+		"safetyquips": [
+			"a smaller baguette",
+			"a nest of baby snakes",
+			"the cursed idol"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A very unlikely place to meet your soulmate",
+		"safetyquips": [
+			"An anti-love protest",
+			"At your wedding",
+			"family reunion"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The best part about living in a sewer",
+		"safetyquips": [
+			"your radical brothers and rat dad",
+			"delicious alligators",
+			"law firm adjacent"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Alice in Wonderland is weird, but it makes more sense than Alice in <BLANK>",
+		"safetyquips": [
+			"debt",
+			"my living room"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "In the worst magic show, the magician pulls <BLANK> out of a hat",
+		"safetyquips": [
+			"a nickel",
+			"a classified ad",
+			"lint"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Something you’d gladly pay $45 for",
+		"safetyquips": [
+			"a six pack of paper towels",
+			"dinner for ten people",
+			"the right to drive on the shoulder in rush hour"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The next big romance novel: For The Love of <BLANK>",
+		"safetyquips": [
+			"Pasta",
+			"Tweet",
+			"your mother-in-law"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The dumbest thing to buy in bulk",
+		"safetyquips": [
+			"warm milk",
+			"sport utility vehicles",
+			"assassins"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Sorry, we don’t have Coke or Pepsi. Is <BLANK> okay?",
+		"safetyquips": [
+			"sugar in water",
+			"whiskey",
+			"lasagna"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A request you’d make on your dating profile: “Must love <BLANK>”",
+		"safetyquips": [
+			"being late all the time",
+			"cheese",
+			"my college roommate"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "Who is God’s understudy?",
+		"safetyquips": [
+			"God Jr.",
+			"a young starlet with big dreams"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What’s the worst sound to hear when shaking a Christmas present?",
+		"safetyquips": [
+			"underwear sounds",
+			"tempting whispers",
+			"rattlesnake"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The best response to “I know you are, but what am I!?”",
+		"safetyquips": [
+			"stone cold silence",
+			"about to be punched",
+			"a speck of dust in the wind"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "After juggling chainsaws, the next skill to master is <BLANK>",
+		"safetyquips": [
+			"reattaching limbs",
+			"repairing the ceiling",
+			"juggling pianos"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Cap’n Crunch’s nickname at the Naval Academy",
+		"safetyquips": [
+			"Ensign Crunch",
+			"ol' milk 'n spoon",
+			"breakfast buddy"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What’s the trick to staying up when you have to pull an all-nighter?",
+		"safetyquips": [
+			"multiple roosters",
+			"throw bed out window",
+			"ice cold underwear"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A sure sign you are currently dating a grizzly bear",
+		"safetyquips": [
+			"fur in the shower",
+			"claw scratches on front door",
+			"closet full of stolen picnic baskets"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The daily special at a diner for bears",
+		"safetyquips": [
+			"big fat fish",
+			"always salmon, always",
+			"7,000 french fries"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The real reason you’re not going to the party tonight",
+		"safetyquips": [
+			"I'm lazy",
+			"kidnapped by aliens who want to harvest my hair",
+			"heard my ex is gonna be there"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The simplest pleasure known to man",
+		"safetyquips": [
+			"BBQ-ing while wearing linen shorts",
+			"swimming in pudding",
+			"adopting a dog"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "It is bad luck if you break a mirror, but good luck if you break <BLANK>",
+		"safetyquips": [
+			"dance",
+			"bad",
+			"a one-way mirror"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The worst thing to find in your belly button",
+		"safetyquips": [
+			"a sustainable farm",
+			"coal",
+			"a body"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The sexiest kitchen appliance",
+		"safetyquips": [
+			"the submissive spoon",
+			"the singles mixer",
+			"leather oven mitt"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "The real reason people are afraid of the dark",
+		"safetyquips": [
+			"werewolves",
+			"not enough light",
+			"no vitamin D"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What you call pants when you want everyone to think you’re fun",
+		"safetyquips": [
+			"leg sleeves",
+			"PANTS!",
+			"clothing tubes"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Okay... just between us... which boy do you have a crush on?",
+		"safetyquips": [
+			"the cute one",
+			"most of my science class",
+			"Biebs"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The “forbidden meat” comes from what animal?",
+		"safetyquips": [
+			"evil chickens",
+			"Brian"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What do boxers whisper to each other at weigh-in?",
+		"safetyquips": [
+			"Is kicking allowed?",
+			"I'm good at punches",
+			"love your trunks!"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What obscure cryptid monster stalks the streets of Cleveland, Ohio?",
+		"safetyquips": [
+			"Normal Foot",
+			"Brian"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What shape never took off with animal crackers?",
+		"safetyquips": [
+			"Endangered Chocolate Chip",
+			"Sloppy Pigs",
+			"sea anemone"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "There’s a secret tax loophole that allows you to count <BLANK> as dependents",
+		"safetyquips": [
+			"ideas",
+			"monsters under your bed"
+		],
+		"us": true,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "The most surprising place to find a missing contact lens",
+		"safetyquips": [
+			"in a pile of snakes",
+			"someone else's eye",
+			"the ceiling"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A terrible sound option to have on a white noise machine",
+		"safetyquips": [
+			"yelling",
+			"crying in the bathroom",
+			"EDM"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "No, the house isn’t haunted. The moaning you hear at night is just <BLANK>",
+		"safetyquips": [
+			"charming",
+			"a sea monster",
+			"the newlyweds next door"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "What’s your reflection doing when you turn your back?",
+		"safetyquips": [
+			"something creepy",
+			"making balloon animals"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The worst thing to see through a telescope, hurtling towards Earth",
+		"safetyquips": [
+			"a giant ball of used underwear",
+			"that alligator you flushed as a child",
+			"a giant nut! (I'm allergic to nuts)"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Instead of a siren, police could get cars to respond faster by blasting <BLANK>",
+		"safetyquips": [
+			"Jimmy Buffett tunes",
+			"raccoon shrieks",
+			"\"Weird Al\" Yankovic"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Carl, the kind cat burglar, leaves your valuables and takes your <BLANK>",
+		"safetyquips": [
+			"ugly sweaters",
+			"leftovers about to go bad",
+			"trash out"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The apartment lease says it’s okay to have dogs as long as they <BLANK>",
+		"safetyquips": [
+			"live in a fish tank",
+			"are not bad dogs",
+			"are cats"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Why do hot singles in your area want to talk to you?",
+		"safetyquips": [
+			"Just chatty",
+			"Because I listen!",
+			"wrong number?"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Dogs are so gullible they actually believe <BLANK>",
+		"safetyquips": [
+			"beanie babies will gain value",
+			"most marketing claims",
+			"there's nothing inside pill pockets"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "You know you’re rich when you have a room just for <BLANK>",
+		"safetyquips": [
+			"eating snacks",
+			"old cell phones",
+			"Tamagotchis"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "In a pinch, this can serve as a life raft",
+		"safetyquips": [
+			"air mattress",
+			"a friend who owes you a favor",
+			"an actual boat"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "“I didn’t come here to make friends, I came here to <BLANK>”",
+		"safetyquips": [
+			"make best friends",
+			"drink milk",
+			"hurt some feelings"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "How do you know your friends are a bunch of phonies?",
+		"safetyquips": [
+			"they smell like hot plastic",
+			"they're mean to your mom",
+			"keep complimenting your muumuu"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Something that should never be described as “rustic”",
+		"safetyquips": [
+			"tampon",
+			"health care",
+			"set of linens"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The attention-craving celebrity who appears when you say their name to a mirror five times",
+		"safetyquips": [
+			"any hip hop star",
+			"a contestant from Love is Blind",
+			"that dude from SNL"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "An inappropriate gift to welcome someone to the neighborhood",
+		"safetyquips": [
+			"old beef stew",
+			"fuzzy handcuffs",
+			"bag of dog poop"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Forget cats and dogs. When the weather gets REALLY bad, it starts raining <BLANK>",
+		"safetyquips": [
+			"hot garbage",
+			"half-price appetizers",
+			"extra dogs"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Nothing is certain but death and taxes... oh, also <BLANK>",
+		"safetyquips": [
+			"happy hour",
+			"climate change",
+			"teen angst"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Oh no! You washed all your clothes with <BLANK> in the pockets!",
+		"safetyquips": [
+			"gerbils",
+			"hand-written checks",
+			"blood"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A sure sign that your takes are way too hot",
+		"safetyquips": [
+			"Twitter bursts into flames",
+			"second-degree burns",
+			"your mom calls you"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Against your better judgment, the thing you really want to put down the garbage disposal",
+		"safetyquips": [
+			"a live chicken",
+			"Barbies",
+			"a giant foam finger"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A good name for a dating app for lawyers",
+		"safetyquips": [
+			"objection",
+			"sustained relationships",
+			"the courting room"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A great name for a superhero who can communicate with cats",
+		"safetyquips": [
+			"Catmandu",
+			"Meow Miss",
+			"Catcaller"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What seagulls are usually thinking",
+		"safetyquips": [
+			"these idiots",
+			"where am I?",
+			"squawk squawk"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What should have happened at the end of Titanic",
+		"safetyquips": [
+			"boat flies away",
+			"it was all a dream",
+			"sharks"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Dorothy meant to say, “There’s no place like <BLANK>”",
+		"safetyquips": [
+			"bone",
+			"the bathroom"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Movie reboot idea: The Devil Wears <BLANK>",
+		"safetyquips": [
+			"Nike",
+			"a red hat",
+			"business casual"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Nothing will wake you up faster than a nice, hot cup of <BLANK> in the morning",
+		"safetyquips": [
+			"laxative",
+			"pure horse adrenaline",
+			"chili peppers"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A rejected fairy tale title: “Jack and the Giant <BLANK>”",
+		"safetyquips": [
+			"Noogie",
+			"property tax bill",
+			"chicken pox"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A weird thing for a dentist to say while you’re in the chair",
+		"safetyquips": [
+			"let's have a look at that mole",
+			"So I'm getting divorced. Sucks.",
+			"mouths are disgusting if you think about it"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The worst name for an educational kids’ show",
+		"safetyquips": [
+			"Pennywise's Science Minute",
+			"Learning Through Screams",
+			"Nothing but Recess!"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A terrible thing to discover squirrels burying in your yard",
+		"safetyquips": [
+			"family albums",
+			"my credit cards",
+			"life-saving medication"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "<BLANK> much?",
+		"safetyquips": [
+			"bite your nails",
+			"eat ramen",
+			"bad breath"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The greatest thing in the world to Auto-Tune",
+		"safetyquips": [
+			"my podcast feed",
+			"an extended beer belch",
+			"Alvin and the Chipmunks"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "In the dystopian future, all clothing will be made from <BLANK>",
+		"safetyquips": [
+			"plastic bags",
+			"other people",
+			"sadness"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The worst ringtone to play on your phone during a work meeting",
+		"safetyquips": [
+			"Baby Shark",
+			"heavy breathing sounds",
+			"your audition for The Voice"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Modern-day Mary Poppins suggests taking a spoonful of <BLANK>",
+		"safetyquips": [
+			"Adderall",
+			"coconut oil",
+			"capitalism"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The worst thing to say after kissing someone",
+		"safetyquips": [
+			"Lasagna for lunch?",
+			"Just like my mom",
+			"Yummers"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Got <BLANK>?",
+		"safetyquips": [
+			"pugs",
+			"got",
+			"any gum"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The special skill on a resume that would make you immediately hire that person",
+		"safetyquips": [
+			"psychic powers",
+			"secret family",
+			"part-time party animal"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Instead of whistling, an updated version of Snow White suggests you <BLANK> while you work",
+		"safetyquips": [
+			"cry",
+			"Fortnite",
+			"watch YouTube"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A surprising thing to find caught in the spiderweb in your basement",
+		"safetyquips": [
+			"money",
+			"grandpa",
+			"a rival gang of spiders"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A truly disgusting flavor for toothpaste",
+		"safetyquips": [
+			"cat food",
+			"Doritos",
+			"mouth flavor"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "“No shirt, no shoes, no <BLANK>, no service”",
+		"safetyquips": [
+			"bills smaller than a 20",
+			"great knock-knock jokes",
+			"face"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "With the best credit card ever, you can redeem reward points for <BLANK>",
+		"safetyquips": [
+			"candy bars",
+			"self-esteem",
+			"dates with celebrities"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What a cat would do if it had human hands",
+		"safetyquips": [
+			"murder you",
+			"ride a dog to the store, buy a fish",
+			"identity theft"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "It should be illegal to put <BLANK> in a buffet",
+		"safetyquips": [
+			"cooked baby carrots",
+			"a dead body",
+			"great care and effort"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Okay wow, God just announced He is sick of hearing prayers about <BLANK>",
+		"safetyquips": [
+			"your love life",
+			"getting into heaven - just relax!!",
+			"Jimmy Buffett tickets"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A better use for Rapunzel’s hair",
+		"safetyquips": [
+			"make a nest for endangered eagles",
+			"whip it back and forth (dancing)",
+			"just braid it and make it cute"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The worst thing to say instead of “I do” at your wedding",
+		"safetyquips": [
+			"\"somebody else does\"",
+			"\"Sure\" *shrugs shoulders*",
+			"\"Ask again later\""
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "What The Beach Boys called themselves before they ever saw the ocean",
+		"safetyquips": [
+			"The Swamp Boys",
+			"The Boys",
+			"The Beatles"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Little known fact: Guns N’ Roses used to to be called Guns N’ Roses N’ <BLANK>",
+		"safetyquips": [
+			"Little Donny Smith",
+			"Horses",
+			"Bake Sales"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What social distancing is called on Antarctica",
+		"safetyquips": [
+			"deep freezing",
+			"life on Antarctica",
+			"nobody likes you"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "An unlikely celebrity to become the next President of the United States",
+		"safetyquips": [
+			"the Taco Bell dog",
+			"Barack Obama",
+			"Guy Fieri"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The most boring reality TV contest would feature competitive <BLANK>",
+		"safetyquips": [
+			"watch repair",
+			"calligraphy",
+			"dry cleaning"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Solar and wind will be a joke once we harness the power of <BLANK>",
+		"safetyquips": [
+			"cow farts",
+			"raw charisma",
+			"laundry detergent pods"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "“You can lead a horse to water, but you can’t make it <BLANK>”",
+		"safetyquips": [
+			"say \"thank you for the water\"",
+			"in show business",
+			"enjoy hanging out with you"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The best way to describe the texture of a jellyfish",
+		"safetyquips": [
+			"scary goopy",
+			"living booger",
+			"plastic bag full of poison Jell-O"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The worst person to accidentally add to a group text about your love life",
+		"safetyquips": [
+			"the person you're writing about",
+			"your old babysitter",
+			"your younger brother"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The scariest thing that could pop out of your birthday cake",
+		"safetyquips": [
+			"your mom",
+			"one million spiders",
+			"student debt"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A good name for a camel dance troupe",
+		"safetyquips": [
+			"Hump Night",
+			"Deserted",
+			"Hump it up"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "Besides cockroaches, the one thing that will survive the apocalypse",
+		"safetyquips": [
+			"the metric system",
+			"Volkswagens",
+			"spray can cheese"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What’s your mom worrying about today?",
+		"safetyquips": [
+			"my future",
+			"a computer virus she repeatedly downloads"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The name of a planet covered in corn",
+		"safetyquips": [
+			"Corn-Saturn",
+			"Cobland"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "“If you build it they will come” applies to baseball fields and <BLANK>",
+		"safetyquips": [
+			"Renaissance fairs",
+			"chocolate factories"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What’s the name of the Walmart aisle where you can go cry in peace?",
+		"safetyquips": [
+			"jellies, jams, and crying",
+			"Knitting/Yarn"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The cow goes moo. The drunk cow goes <BLANK>",
+		"safetyquips": [
+			"Moo-ve out of my way, Janet!",
+			"Let's order Domino's",
+			"Let's go us-tipping!"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Unfortunately, Curious George was the most curious about <BLANK>",
+		"safetyquips": [
+			"quicksand",
+			"timeshares",
+			"laundry pods"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The most popular job title in 2040",
+		"safetyquips": [
+			"ditchdigger",
+			"robot assistant",
+			"oxygen deliveryman"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Did you know your garden hose can double as a <BLANK>!?",
+		"safetyquips": [
+			"sad shower",
+			"toy snake",
+			"xxxxxxxxxxl belt"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A terrible Mother’s Day gift",
+		"safetyquips": [
+			"jar of sweet relish",
+			"half-used bar of soap"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Doctors say <BLANK> is not addictive, but you’re hooked!",
+		"safetyquips": [
+			"ibuprofen",
+			"bread",
+			"having fun"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Understandably, no one wants to adopt Little Orphan <BLANK>",
+		"safetyquips": [
+			"Old Man",
+			"Idiot",
+			"Evil Doll"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A deodorant scent designed by a dog",
+		"safetyquips": [
+			"Urinal Cake",
+			"Wet",
+			"Blood"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "America doesn’t have a royal family. We just have <BLANK>",
+		"safetyquips": [
+			"The Kardashians",
+			"Muppets",
+			"The Simpsons"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A lighter, more romantic sequel to Crime and Punishment would be called <BLANK>",
+		"safetyquips": [
+			"When Crime Met Punishment",
+			"Crime, Punishment, and Gardenias",
+			"Giggles and Punishment"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Instead of Truth or Dare, kids these days play Truth or <BLANK>",
+		"safetyquips": [
+			"fake news",
+			"consensual actions",
+			"Fortnite"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The worst thing to use as a straw",
+		"safetyquips": [
+			"your leg",
+			"a taco",
+			"a seagull"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "For containers, you go to The Container Store. For sex toys, you go to <BLANK>",
+		"safetyquips": [
+			"The Pleasure Emporium",
+			"Ye Olde Dildo Shoppe"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "A cocktail you make for sad occasions",
+		"safetyquips": [
+			"A Tom Bawl'ins",
+			"Warm flat beer",
+			"The Crying Lucinda"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A business word an important businessman might say, for business",
+		"safetyquips": [
+			"Synergy",
+			"Corporatize",
+			"you're fired"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Money can’t buy happiness, but it CAN buy <BLANK>",
+		"safetyquips": [
+			"infinite puppies",
+			"a butler named 'Happiness'",
+			"a sick Jacuzzi"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Jesus’ secret middle name",
+		"safetyquips": [
+			"Holy",
+			"Carpenter",
+			"Brad"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A better name for comic books would be <BLANK>",
+		"safetyquips": [
+			"laugh squares",
+			"dork bibles",
+			"picture friends"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A good name for the opposite of a silent-but-deadly fart",
+		"safetyquips": [
+			"loud n' proud",
+			"horn time",
+			"Chernobyl"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "Look, it’s all fun and games until <BLANK>",
+		"safetyquips": [
+			"you have kids",
+			"MONDAY AMIRIGHT",
+			"game night is over"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "California’s biggest export is <BLANK>",
+		"safetyquips": [
+			"failed actors",
+			"squashed dreams",
+			"teeny tiny oranges"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What’s a badass name for a badass sword?",
+		"safetyquips": [
+			"The Hellcutter",
+			"Mr. Stabs",
+			"Harold Von Fearblade"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Kids these days are skipping first base and going straight to <BLANK>",
+		"safetyquips": [
+			"home plate",
+			"the garage",
+			"the sticky cave"
+		],
+		"us": true,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "Modern pirates don’t steal treasure. They steal <BLANK>",
+		"safetyquips": [
+			"stock tips",
+			"the silver screen",
+			"real estate licenses"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A name for a superhero who is basically just a rip-off of Batman",
+		"safetyquips": [
+			"The Nighttime Boy",
+			"Sad Flying Man",
+			"No-Parents Man"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "After a massive downsizing, the store unfortunately had to be renamed Bed Bath & <BLANK>",
+		"safetyquips": [
+			"the outlet next door",
+			"your dad's house",
+			"some other stuff"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "<BLANK>: It’s hard work, but somebody’s gotta do it!",
+		"safetyquips": [
+			"Eating the leftovers",
+			"Correcting people's grammar",
+			"Spoiling the plot of \"The Sixth Sense\""
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What’s the perfect hide-and-seek hiding spot?",
+		"safetyquips": [
+			"next to a fog machine",
+			"behind a REALLY big tree",
+			"the Mariana Trench"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Halloween would be even spookier if it were called <BLANK>",
+		"safetyquips": [
+			"Only Candy Corn Day",
+			"Ghost-a-palooza"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "500 years ago freckles were called <BLANK>",
+		"safetyquips": [
+			"The European curse",
+			"cheek lint"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "It’s easy to walk out of a timeshare pitch... until they offer you <BLANK>",
+		"safetyquips": [
+			"attention",
+			"free candy"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "There is only one person you should follow into a dark alley and that’s <BLANK>",
+		"safetyquips": [
+			"anybody with snacks",
+			"a fireworks salesperson"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Austin’s new slogan should be “Keep Austin <BLANK>”",
+		"safetyquips": [
+			"away from the bats",
+			"a little silly but mostly normal",
+			"underground"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Remember kids: if it doesn’t have <BLANK>, it’s not anime!",
+		"safetyquips": [
+			"begrudging respect between rivals",
+			"crying",
+			"extended screaming"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What secret is your left hand keeping from your right hand?",
+		"safetyquips": [
+			"where the good nail clippers are",
+			"how to play the piano"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What do most Rorschach tests look like to you?",
+		"safetyquips": [
+			"squid droppings",
+			"my childhood teacher's judging eyes",
+			"spilled soup"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "“Of all the gin joints in all the towns in all the world, she walks into <BLANK>”",
+		"safetyquips": [
+			"a bad bar",
+			"Pizza Hut"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Something Sonic the Hedgehog should NOT be doing that fast",
+		"safetyquips": [
+			"open-heart surgery",
+			"repairing his broken relationships",
+			"smooching"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The most difficult hole in mini-golf is a tiny version of <BLANK>",
+		"safetyquips": [
+			"my high school prom",
+			"Finland"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "My trap is fiendishly simple, Mr. Bond! Once I pull this lever, the floor will become <BLANK>",
+		"safetyquips": [
+			"ugly",
+			"covered in alligators"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "There is no “i” in team... but there is an “i” in <BLANK>",
+		"safetyquips": [
+			"My team is bad",
+			"Tim",
+			"losing"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "First the cat gets your tongue, then it gets your <BLANK>",
+		"safetyquips": [
+			"soul",
+			"teeth"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A terrible last name if your first name is Dick",
+		"safetyquips": [
+			"Dick",
+			"Cissel",
+			"Richard"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "Ok, fellas, let’s have a fair fight. No spitting, no kicking and absolutely no <BLANK>",
+		"safetyquips": [
+			"falling in love",
+			"double dutch",
+			"discussion of socialism"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "An embarrassing person to accidentally call “Daddy”",
+		"safetyquips": [
+			"Arnold Schwarzenegger",
+			"your priest"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A blood type only found in extremely sexy people",
+		"safetyquips": [
+			"XXX",
+			"O + MY"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "The worst inspirational sign to see while running a marathon",
+		"safetyquips": [
+			"Try walking, loser!",
+			"Warning: lions around the corner",
+			"You could be indoors right now"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Weirdly enough, the NFL has agreed to let players celebrate touchdowns by <BLANK>",
+		"safetyquips": [
+			"scoring more touchdowns",
+			"humming a lil' tune"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The federal government should have an executive Department of <BLANK>",
+		"safetyquips": [
+			"Freak Outs",
+			"Swampland Rehabilitation!!"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The last person you’d take financial advice from",
+		"safetyquips": [
+			"my father",
+			"my ex",
+			"24 hour fortune teller"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A less radical band name would be Rage Against The <BLANK>",
+		"safetyquips": [
+			"neighbors",
+			"local school board"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The title of a mixtape you would make for your boss",
+		"safetyquips": [
+			"The Smooth Sounds of Stapling",
+			"The Copies You Wanted",
+			"15 Songs To Tell You I Quit"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A sign it’s time to wrap up your day at the beach",
+		"safetyquips": [
+			"fourth-degree sunburn",
+			"Godzilla's on his way",
+			"a seagull insurrection"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The coolest kid in middle school is always the one wearing <BLANK>",
+		"safetyquips": [
+			"Heelys",
+			"the armor of the self-assured",
+			"head-to-toe leather"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "There’s the problem! You’ve got a huge <BLANK> stuck in your sink.",
+		"safetyquips": [
+			"severed hand",
+			"cantaloupe"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A bumper sticker a goose would put on its car",
+		"safetyquips": [
+			"Honk if you're a fan of honking",
+			"Gosling on board"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "If you don’t have any teeth, the tooth fairy will gladly take your <BLANK>",
+		"safetyquips": [
+			"credit cart",
+			"gums"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Fine! If nobody is going to ask... I will! What’s that smell?",
+		"safetyquips": [
+			"success",
+			"a delicious pie cooling on the window sill"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A good excuse for not reading your friend’s new screenplay",
+		"safetyquips": [
+			"Whoopsie, I forgot how to read",
+			"Allergic to words"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Huge twist! Turns out the monster was really <BLANK> wearing a mask the whole time!",
+		"safetyquips": [
+			"capitalism",
+			"a teddy bear",
+			"an ice cream sundae"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A good sign that Santa doesn’t give a crap about his job anymore",
+		"safetyquips": [
+			"Two words: reindeer sausage",
+			"Started Santa Prime",
+			"$9.95 to be on Nice List"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The best marketing slogan for your butt",
+		"safetyquips": [
+			"Now mostly gas free",
+			"Once you pop, you can't stop",
+			"Got Butt?"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "It’s not all Bible study! On Wednesdays, the local church group is known to <BLANK>",
+		"safetyquips": [
+			"write dirty limericks",
+			"enjoy a good buffet"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Michael Bay presents <BLANK>: The Musical!",
+		"safetyquips": [
+			"Mark Wahlberg",
+			"Books"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Remember: Never buy a build-your-own <BLANK>",
+		"safetyquips": [
+			"blacksmith forge",
+			"Predator",
+			"planet"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The shrimp boat captain never worked again after accidentally catching <BLANK> in his net",
+		"safetyquips": [
+			"a golden crawdad",
+			"some sinking billionaires",
+			"Matt Damon"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Finish the rhyme: “Roses are red, violets are blue, I got you this card, <BLANK>”",
+		"safetyquips": [
+			"to break up with you",
+			"the bargain is complete"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A slightly more appetizing name for “leftovers”",
+		"safetyquips": [
+			"Dinner: The Sequel",
+			"Microwave Friends"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "If a friend describes your blind date as “interesting,” it means <BLANK>",
+		"safetyquips": [
+			"wacky",
+			"not entirely human"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The DNA test proves you are not the father, but you are <BLANK>",
+		"safetyquips": [
+			"a father",
+			"going to be soon"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "For a wedding to be legal in Florida, <BLANK> must be present at the ceremony",
+		"safetyquips": [
+			"an alligator",
+			"the local biker gang",
+			"a Florida man"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The perfect excuse for getting out of gym class",
+		"safetyquips": [
+			"I've already gone pro",
+			"I'm allergic to spheres"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "After her husband died, who did Mrs. Butterworth eventually end up with?",
+		"safetyquips": [
+			"Mr. Worthy Butter",
+			"Jack Flap"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The biggest pet peeve among modern zombies",
+		"safetyquips": [
+			"vegans",
+			"high-rise apartments",
+			"social media bullying"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Something you shouldn’t say in a crowded elevator",
+		"safetyquips": [
+			"I could use a cuddle",
+			"Oh great. Diarrhea again",
+			"Anybody mind if I practice my banjo?"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The worst thing about being really, really sexy",
+		"safetyquips": [
+			"Nothing. I love it",
+			"Spend a fortune on bikinis",
+			"People keep giving you apartments"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The best way to stay young forever",
+		"safetyquips": [
+			"Become a vampire?",
+			"Never stop dancing",
+			"Change your name to \"Turbo\""
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Something you might overhear in the White House",
+		"safetyquips": [
+			"Didn't I just talk to Congress?",
+			"Wait. Kansas is real?",
+			"Anybody else see Chester A. Arthur's ghost?"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What sound does a shy gun make?",
+		"safetyquips": [
+			"Sorry, sorry",
+			"Shh, shh"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Book adaptations have gone too far! Now they’re making <BLANK>: On Ice!",
+		"safetyquips": [
+			"The Fault in Our Stars",
+			"The Encyclopedia Britannica Books A-D",
+			"War and Peace"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "In the next Donkey Kong game, you’ll get to meet his distant cousin: <BLANK> Kong",
+		"safetyquips": [
+			"Stockbroker",
+			"Spelunky"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "There are three types of people. You’re either a witch, a stone or a <BLANK>",
+		"safetyquips": [
+			"lawn gnome",
+			"bottle of soup",
+			"iPad"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "An excuse for being late that will make people stop asking questions FAST",
+		"safetyquips": [
+			"that smell is coming from me!",
+			"three words: party boat funeral"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What a misfit vampire craves more than blood",
+		"safetyquips": [
+			"a good brie",
+			"nail clippings",
+			"red paint"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "First was the bro hug. Now bros are doing <BLANK>",
+		"safetyquips": [
+			"the knee tap",
+			"the skull rub",
+			"the butt press"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The rejected last line of the national anthem: “O’er the land of the free and the home of <BLANK>”",
+		"safetyquips": [
+			"the largest ball of twine",
+			"fake news",
+			"Hamilton the musical"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Something stupid a 23rd-century human might find in a time capsule from today",
+		"safetyquips": [
+			"an impossible burger",
+			"a fidget spinner",
+			"selfie stick"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Is it just me or is <BLANK> just TOO attractive to be human?",
+		"safetyquips": [
+			"my mom",
+			"the pizza delivery guy"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The most common birthday wish is for world peace. The second most common is <BLANK>",
+		"safetyquips": [
+			"no more jerks",
+			"for my sports team to win a lot"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "It isn’t called “sex” in honest relationships. It’s called “making <BLANK>”",
+		"safetyquips": [
+			"one person feel good",
+			"the best use of our time"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "You’re twelve years old and you just got a blank check! What’s the first thing you’re buying?",
+		"safetyquips": [
+			"water slide, duh",
+			"attentive parents"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Someone you’d never expect to give you “the birds and the bees” talk",
+		"safetyquips": [
+			"beloved character actor Stephen Root",
+			"a bored aunt",
+			"the Ghost of Christmas Past"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "If we named all the constellations today, one would DEFINITELY be called <BLANK>",
+		"safetyquips": [
+			"The millennials",
+			"CassioWikipedia"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Look up “<BLANK>” in the dictionary and there will be a picture of <ANYPLAYER>",
+		"safetyquips": [
+			"3rd place",
+			"trying"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A terrible catchphrase for a magician",
+		"safetyquips": [
+			"That's magic?",
+			"Science!",
+			"It doesn't always work!"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The best name for a local news weatherperson",
+		"safetyquips": [
+			"Bob Weather",
+			"Amy Deathstorm",
+			"Tony Hail"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A celebrity <ANYPLAYER> looks like, if you squint a little",
+		"safetyquips": [
+			"Olaf from Frozen",
+			"Daffy Duck",
+			"WALL-E"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "And over here are the fossils of the <BLANK>, the world’s clumsiest dinosaur!",
+		"safetyquips": [
+			"Triposaurus",
+			"Bumbledactyl"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "When I die, I want to be surrounded by family and <BLANK>",
+		"safetyquips": [
+			"beloved character actors",
+			"an extensive cheese plate",
+			"protective charms"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "If we could just turn off gravity for an hour, it would make <BLANK> much more interesting",
+		"safetyquips": [
+			"pogo sticks",
+			"juggling"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The weirdest thing you could tell your hairdresser: “Give me the <BLANK>”",
+		"safetyquips": [
+			"Captain Picard",
+			"hair clippings",
+			"yoga instructor haircut"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A shocking thing to discover your kids built out of LEGO",
+		"safetyquips": [
+			"democracy",
+			"another kid",
+			"perfect replica of you"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The hardest thing to say with a big, goofy smile",
+		"safetyquips": [
+			"Ready for my bikini wax!",
+			"Engine number three failed!",
+			"Welcome to Kansas!"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Oddly enough, the Tour de France takes a tiny detour through <BLANK>",
+		"safetyquips": [
+			"a family's bathroom",
+			"a wormhole",
+			"a food court"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The most convenient piece of furniture is a couch that turns into <BLANK>",
+		"safetyquips": [
+			"a spouse",
+			"a sofa"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The best way to “dress up” a pair of cargo shorts",
+		"safetyquips": [
+			"burn them",
+			"sequins",
+			"fill the pockets with caviar"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The leading cause of goosebumps, probably",
+		"safetyquips": [
+			"Timothée Chalamet",
+			"soft serve in a baseball helmet",
+			"the news"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "You knew the accident involved a clown car because the road was covered in <BLANK>",
+		"safetyquips": [
+			"rubber noses",
+			"hundreds of long footprints",
+			"red face paint"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "An architectural landmark you find weirdly... attractive",
+		"safetyquips": [
+			"Great Sphinx of Giza",
+			"the St. Louis Arch",
+			"thick, long bridges"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "The name of a yacht that you’d think twice about getting on",
+		"safetyquips": [
+			"Not Gonna Crash This One!",
+			"The Sailor's Damnation"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Nobody ever checks in to that hotel room! Not since <BLANK>",
+		"safetyquips": [
+			"The mule incident",
+			"yesterday"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "“Revenge is a dish best served <BLANK>”",
+		"safetyquips": [
+			"with a side of meanness",
+			"at Doom temperature"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The community college was doomed after it made <BLANK> its mascot",
+		"safetyquips": [
+			"A feral gila monster",
+			"student loan debt",
+			"the concept of auto maintenance"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "If you want a bartender to hate you, just order <BLANK>",
+		"safetyquips": [
+			"too loud",
+			"the angriest beer"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The slowest draw in the West: Billy the <BLANK>",
+		"safetyquips": [
+			"not-paying-attention",
+			"man with heavy guns"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Something that makes you go, “Ugh, fine, I’ll do it”",
+		"safetyquips": [
+			"Frank from Accounting",
+			"babysitting your niece"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "My ladyship, may I introduce the most disgusting knight we have, Sir <BLANK>",
+		"safetyquips": [
+			"Barfs-a-Lot",
+			"Galahack"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The next big documentary will be about the seedy underbelly of the <BLANK> industry",
+		"safetyquips": [
+			"Toblerone",
+			"shoelace",
+			"intramural ping-pong"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "If you’re being honest with yourself, you’ll never be brave enough to <BLANK>",
+		"safetyquips": [
+			"be hot",
+			"kiss"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The name of a clown you would not hire for your six-year-old’s birthday party",
+		"safetyquips": [
+			"Sad Bad Clown",
+			"Medical Clown 2"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The name of a summer camp for extremely shy children",
+		"safetyquips": [
+			"Audience Camp",
+			"Speak Up!! Camp"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Dishwashers don’t have windows! What are they hiding?",
+		"safetyquips": [
+			"they sell your dishes on the black market",
+			"it's a party in there"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A gift your stepdad really tried his best on... so be nice",
+		"safetyquips": [
+			"friendship bracelets",
+			"tix to a basketball game you'll sit in silence at",
+			"off-brand Hott Wheelz toys"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Forget the labradoodle! The best dog breed combination is the <BLANK>",
+		"safetyquips": [
+			"corgenweiner",
+			"Great Daneapoo"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "When in England, remember that they <BLANK> on the other side of the road",
+		"safetyquips": [
+			"weep",
+			"get in accidents",
+			"merrily skip"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Something that you didn’t need to know is gluten-free",
+		"safetyquips": [
+			"human flesh",
+			"various small rocks"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "In the Republic of <ANYPLAYER>, the national anthem would be <BLANK>",
+		"safetyquips": [
+			"the discography of Carly Rae Jepsen",
+			"The X-Files theme song"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The worst thing to discover that your five-year-old is drawing",
+		"safetyquips": [
+			"your face with devil horns",
+			"the pet pony they'll never have",
+			"the sun with a frowny face"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Quick! How do you ruin a romantic picnic!?",
+		"safetyquips": [
+			"give the ants knives",
+			"too many grapes"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "OMG. Seriously. Where is Waldo???",
+		"safetyquips": [
+			"behind you",
+			"Cancun for Spring Break",
+			"finding himself"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "GOOD: hard-boiled eggs. BAD: hard-boiled <BLANK>",
+		"safetyquips": [
+			"opinions",
+			"dogs",
+			"cake"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A fact about you that would impress a four-year-old",
+		"safetyquips": [
+			"I can swim",
+			"I have a job"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What’s the next state we should add to the US?",
+		"safetyquips": [
+			"Denial",
+			"The Republic of Chili's Too"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Look, kids, if you can’t agree on a name for that hamster, we’re just going to call it <BLANK>",
+		"safetyquips": [
+			"Meatball",
+			"Batmanster"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A bribe!? Is it a bribe to give a federal judge <BLANK>?",
+		"safetyquips": [
+			"a Rolex",
+			"a money hug"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Little-known fact! Da Vinci liked to draw a little <BLANK> somewhere in his paintings.",
+		"safetyquips": [
+			"cartoon turtle",
+			"hint to a puzzle about Jesus"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "If you lived in the early 1500s, what would YOU nail to the door of a church?",
+		"safetyquips": [
+			"Naruto fanfic",
+			"A nice picture of a flower I drew"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What’s something you should never do while wearing sandals?",
+		"safetyquips": [
+			"tap dance",
+			"run from a bear"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Never get in a street fight with someone nicknamed “<BLANK>”",
+		"safetyquips": [
+			"The Cheater",
+			"Mr. Goes Too Far"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The most dramatic way to end a letter is: “P.S. <BLANK>”",
+		"safetyquips": [
+			"I'm spontaneously pregnant",
+			"Whoopsie, fell down an elevator shaft!",
+			"Boo! I'm a ghost!"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What should you label your computer porn to prevent your mom from opening it?",
+		"safetyquips": [
+			"\"Just vegetables\"",
+			"\"pictures of skateboards\""
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "Before marmalade, Paddington Bear had a crippling addiction to <BLANK>",
+		"safetyquips": [
+			"tea",
+			"pajamas",
+			"sports betting"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "The one thing you should never put in a communal fridge",
+		"safetyquips": [
+			"a dead body",
+			"loose cheese",
+			"your trust in humanity"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The title of Herman Melville’s unpublished sequel: Moby Dick 2: <BLANK>",
+		"safetyquips": [
+			"2 Dick 2 Furious",
+			"More Dick",
+			"Oh Whale"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The next hit dating reality series: Love is <BLANK>",
+		"safetyquips": [
+			"Right Behind You",
+			"Mostly Lust",
+			"Not Fair"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Honestly, <BLANK> might as well be a curse word",
+		"safetyquips": [
+			"\"Honesty\", am I right??",
+			"Flibertigibbet",
+			"fork"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Name a snack food for mummies",
+		"safetyquips": [
+			"Pyramints",
+			"Bubble tape",
+			"Sarcopha-gum"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "If Virginia is for lovers, then Alabama is for <BLANK>",
+		"safetyquips": [
+			"divorces",
+			"feral pigs",
+			"mullets"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The title of a gritty sequel to Goodnight Moon",
+		"safetyquips": [
+			"The Moon Is Never Coming Back",
+			"The Moon's Secret Family",
+			"Eat Lead, Moon"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "In MacGyver’s most awkward life-and-death moment, he only had a pocket full of <BLANK>",
+		"safetyquips": [
+			"nuts",
+			"cassette tapes",
+			"dreams"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Did you know that <ANYPLAYER> founded the <BLANK> Club in high school?",
+		"safetyquips": [
+			"Weird Anime",
+			"Eating Lunch In The Bathroom",
+			"Sad Friends"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "You can tell the wine tasting is cheap when the chardonnay has notes of <BLANK>",
+		"safetyquips": [
+			"gasoline",
+			"tap water",
+			"sawdust"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Ok, which one of you used the Xerox to make copies of <BLANK>?",
+		"safetyquips": [
+			"their medical condition",
+			"smaller, grainier pictures",
+			"the janitor's face"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "An accurate slogan would be “The Suburbs: <BLANK>”",
+		"safetyquips": [
+			"Give up on your dreams!",
+			"We've got chicken wings",
+			"It's not THAT sad."
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Oh! The handcuffs in the bedroom? They’re not for sex! They’re for <BLANK>!",
+		"safetyquips": [
+			"guests",
+			"my lycanthropy"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "The button on the microwave that never gets used",
+		"safetyquips": [
+			"burnt popcorn",
+			"blend",
+			"impersonate a real oven"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Who’s really America’s Sweetheart?",
+		"safetyquips": [
+			"You, the viewer at home.",
+			"Capitalism"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Due to funding cuts, Broadway’s Phantom is now Phantom of the <BLANK>",
+		"safetyquips": [
+			"Dunkin Donuts",
+			"VR Arcade",
+			"discount ticket kiosk"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The most useless feature of luxury coffins",
+		"safetyquips": [
+			"cup holders",
+			"edible lid",
+			"lumbar massage"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "If you want to be a SUPER model, strut to the end of the runway and then <BLANK>",
+		"safetyquips": [
+			"do a backflip",
+			"keep going",
+			"shoot lasers from your eyes"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What your smart speaker wishes it could say to you",
+		"safetyquips": [
+			"Why don't YOU answer questions once in a while?",
+			"Eat my shorts",
+			"You should leave him"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Never trust a veterinarian who decorates their waiting room with <BLANK>",
+		"safetyquips": [
+			"sausage links",
+			"out of reach dog biscuits",
+			"paintings of cemeteries"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Your cat can talk for one minute. What do you chat about?",
+		"safetyquips": [
+			"Where I'm taking her poop",
+			"The best trick he can do for internet fame",
+			"the \"other\" cat"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A group of tax attorneys is called <BLANK>",
+		"safetyquips": [
+			"an audit",
+			"a deduction",
+			"a number"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Nothing can stop the Terminator. Well, nothing except <BLANK>",
+		"safetyquips": [
+			"paternal instinct",
+			"sequel burnout",
+			"salary caps"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "If she were alive today, Marie Antoinette would probably say “Let them eat <BLANK>!”",
+		"safetyquips": [
+			"these receipts",
+			"gluten-free pasta",
+			"at Domino's Pizza"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Fine!!! What’s the sexiest animal?",
+		"safetyquips": [
+			"a bluebird with a steady job",
+			"a pile of carpenter ants",
+			"a swallow"
+		],
+		"us": false,
+		"familyfriendly": false
+	},
+	{
+		"prompt": "The amusement park was a bust. Now what do we do with all these cloned dinosaurs?!",
+		"safetyquips": [
+			"Let's try an amusement park AGAIN",
+			"jerky",
+			"petting zoo?"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The worst thing to step on with bare feet",
+		"safetyquips": [
+			"your son",
+			"Mr. Soapy's Acid Goo Bathtub Cleaner",
+			"hot magma"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Did you know that Ben Franklin also invented <BLANK>?",
+		"safetyquips": [
+			"infidelity",
+			"the Snuggie",
+			"the internet"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The dance move that finally killed disco was called “The Funky <BLANK>”",
+		"safetyquips": [
+			"Knife Set",
+			"Cornish Hen",
+			"Comfortable Seated Position"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The worst thing to write inside a “get well soon” card",
+		"safetyquips": [
+			"This was your fault",
+			"Can I borrow your skis?",
+			"Happy Anniversary!"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A bar for corrupt politicians",
+		"safetyquips": [
+			"The Gerrymander",
+			"The Fleece 'n Robb"
+		],
+		"us": true,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A job title you probably shouldn’t put on your LinkedIn profile",
+		"safetyquips": [
+			"Wizard-At-Large",
+			"Definitely a Human Businessman",
+			"Domestic Boss"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "In heaven, you will be surrounded by friends, family and, for some reason, <BLANK>",
+		"safetyquips": [
+			"Anakin Skywalker",
+			"that turtle you saw at the zoo in 2007",
+			"marshmallows"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "What did the band the Barenaked Ladies originally call themselves?",
+		"safetyquips": [
+			"The False Advertisers",
+			"The Naked Lady Bears"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The most innocent thing you could type that would result in a Twitter fight",
+		"safetyquips": [
+			"Guess I'll give this Twitter a try",
+			"Hi, everybody",
+			"Aren't kittens cute?"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "One thing someone could whisper in your ear to win your heart forever",
+		"safetyquips": [
+			"I have bacon",
+			"I'm rich",
+			"I will bring you ice cream"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The name Dr. Frankenstein wanted to give his monster but decided against it",
+		"safetyquips": [
+			"Slim",
+			"Vic Jr.",
+			"Dracula"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "If humans could acquire a sixth sense, it should be <BLANK>",
+		"safetyquips": [
+			"super smell",
+			"laser eyes",
+			"empathy"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The coolest thing to pop out of Wolverine’s hands instead of metal claws",
+		"safetyquips": [
+			"Lipstick tubes",
+			"Tiny chainsaws",
+			"Flu shots"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Something SO much worse than hair to find in your food",
+		"safetyquips": [
+			"eyeball",
+			"scorpion",
+			"shampoo"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Name the sequel to Cats. Cats 2: <BLANK>",
+		"safetyquips": [
+			"The Neutering",
+			"Hairball Edition",
+			"The War Against Dogs"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "The strangest thing to discover in a mummy’s tomb",
+		"safetyquips": [
+			"My old 3DS",
+			"A daddy... hah! Got 'em!",
+			"Amelia Earhart"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "A surprising thing to get trapped in your Invisalign clear tooth aligner",
+		"safetyquips": [
+			"a thumbnail",
+			"a fishing lure",
+			"an entire bag of french fries"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "Avoid any restaurant with a sign that says “As Seen on <BLANK>”",
+		"safetyquips": [
+			"Security camera footage",
+			"Top Gear",
+			"the back of the church bulletin"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "It would actually be chill to die in an avalanche of <BLANK>",
+		"safetyquips": [
+			"puppies",
+			"first-edition Pokemon cards",
+			"sick guitars"
+		],
+		"us": false,
+		"familyfriendly": true
+	},
+	{
+		"prompt": "First, the Grinch stole Christmas. But he went too far when he stole <BLANK>",
+		"safetyquips": [
+			"Our hearts",
+			"Arbor Day",
+			"my identity"
+		],
+		"us": false,
+		"familyfriendly": true
+	}
+]
