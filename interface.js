@@ -19,9 +19,9 @@ function MainMenu() {
 function ConnectMenu() {
 	return div(
 		h2("connect to a game"),
-		button({onclick: ()=>state.state="mainmenu"}, "<- back"),
-		input({placeholder: "your name", id: "name"}),
-		input({placeholder: "server code", id: "serverid"}),
+		button({onclick: ()=>state.state="mainmenu"}, "<- back"), br(),
+		input({placeholder: "your name", id: "name"}), br(),
+		input({placeholder: "server code", id: "serverid"}), br(),
 		button({onclick: () => {
 			connect_to($("#serverid").value, $("#name").value)
 		}}, "CONNECT")
@@ -40,6 +40,19 @@ function Lobby() {
 	}
 }
 
+function AnswerPrompts() {
+	return div(
+		p(state.prompts[0].prompt),
+		input({id: "fred"}),
+		button({onclick: () => {
+
+		}}, "submit"),
+		button({onclick: () => {
+
+		}}, "safety quip")
+	)
+}
+
 function MainInterface() {
 	let view = div(
 		MainMenu()
@@ -55,6 +68,8 @@ function MainInterface() {
 			view.append(Loading())
 		} else if (state.state == "lobby") {
 			view.append(Lobby())
+		} else if (state.state == "answerprompts") {
+			view.append(AnswerPrompts())
 		}
 	})
 

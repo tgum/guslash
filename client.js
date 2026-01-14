@@ -32,6 +32,10 @@ function ondata(data) {
 		state.vip = data.vip
 		send_name()
 		state.state = "lobby"
+	} else if (data.type == "prompts") {
+		state.prompts = data.prompts
+		console.log(state.prompts)
+		state.state = "answerprompts"
 	} else if (data.type == "rejected") {
 		state.connected = false
 		console.log("rejected from server. reason:", data.reason)

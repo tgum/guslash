@@ -1,3 +1,5 @@
+const familyfriendly = true
+
 const state = createState({
 	id: "",
 	players: [],
@@ -66,7 +68,48 @@ function ondata(id, data) {
 
 function begin_game() {
 	console.log("let the games actually begin fr this time")
+	generate_prompts()
+
+	for (let player of state.players) {
+		player.send_prompts()
+	}
+
 	state.state = ""
+}
+
+function generate_prompts() {
+	let pool = state.round == 1 ? prompts_round1 : prompts_round2
+	pool = pool.filter(x => !familyfriendly || x.familyfriendly)
+
+	let loop = true
+	while (loop) {
+		let prompts = []
+		for (let i = 0; i < state.players.length; i++) {
+			let p = pool[Math.floor(Math.random()*pool.length)]
+			prompts.push(p)
+		}
+		prompts = [...prompts, ...prompts]
+		console.log(prompts)
+
+		for (let i = 0; i < 2; i++) {
+			for (let player of state.players) {
+				if (i == 0) player.prompts = []
+				let prompt_index = Math.floor(Math.random() * prompts.length)
+				player.prompts.push(prompts[prompt_index])
+				prompts.splice(prompt_index, 1)
+			}
+		}
+
+		loop = false
+		for (let player of state.players) {
+			console.log(player.index, player.prompts)
+			if (player.prompts[0] == player.prompts[1]) {
+				console.log("whoops we have a double. relooping")
+				loop = true
+				break
+			}
+		}
+	}
 }
 
 let prompts_round1 = []
