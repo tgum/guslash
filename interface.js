@@ -41,16 +41,41 @@ function Lobby() {
 }
 
 function AnswerPrompts() {
-	return div(
+	let container = div(
 		p(state.prompts[0].prompt),
-		input({id: "fred"}),
-		button({onclick: () => {
+		input({id: "promptanswer"})
+	)
 
+	let view = div(
+		container,
+		br(),
+		button({onclick: () => {
+			let answer = $("#promptanswer").value
+			console.log("sending answer")
+			send_answer(answer)
+			state.prompts = state.prompts.slice(1)
 		}}, "submit"),
 		button({onclick: () => {
-
+			console.log("safety quip :/")
+			send_safety()
+			state.prompts = state.prompts.slice(1)
 		}}, "safety quip")
 	)
+
+	state.addUpdate("prompts", () => {
+		if (state.prompts.length > 0) {
+			container.innerHTML = ""
+			container.append(p(state.prompts[0].prompt))
+			container.append(input({id: "promptanswer"}))
+		} else {
+			view.innerHTML = ""
+			view.append(
+				p("wait for everyone to finish their prompts")
+			)
+		}
+	})
+
+	return view
 }
 
 function MainInterface() {

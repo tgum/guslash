@@ -61,3 +61,14 @@ function send_start() {
 	const packet = basic_packet("start game")
 	state.connection.send(packet)
 }
+function send_answer(answer) {
+	console.log("sending answer")
+	const packet = basic_packet("answer")
+	packet.answer = answer
+	state.connection.send(packet)
+}
+function send_safety() {
+	console.log("sending safety")
+	const packet = basic_packet("safetyquip")
+	state.connection.send(packet)
+}

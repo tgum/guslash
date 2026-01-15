@@ -7,6 +7,7 @@ const state = createState({
 	state: "loading",
 	round: 1,
 	loaded_prompts: 2,
+	timeleft: 0,
 });
 
 let peer = new Peer()
@@ -39,25 +40,31 @@ function on_connection(conn) {
 
 function ondata(id, data) {
 	console.log("got data from", id, data)
-	if (data.id == state.players[id].id) {
+	let player = state.players[id]
+
+	if (data.id == player.id) {
 		if (data.type == "name" && state.state == "lobby") {
-			state.players[id].name = data.name
+			player.name = data.name
 			updatelobby()
 		} else if (data.type == "start game" && state.state == "lobby") {
-			if (state.players[id].vip) {
+			if (player.vip) {
 				console.log("let the games begin")
-				if (state.loaded_prompts > 0) {
+				if (state.loaded_prompts == 0) {
+					begin_game()
+				} else {
 					state.addUpdate("loaded_prompts", () => {
 						if (state.loaded_prompts == 0) {
 							begin_game()
 						}
 					})
-				} else {
-					begin_game()
 				}
 			} else {
 				console.log("non vip tried to start the game")
 			}
+		} else if (data.type == "answer" && state.state == "answerprompts") {
+			player.answer(data.answer, false)
+		} else if (data.type == "safetyquip" && state.state == "answerprompts") {
+			player.safety()
 		} else {
 			console.log("unrecognized packet or wrong state, type:", data.type, ", state:", state.state)
 		}
@@ -74,7 +81,7 @@ function begin_game() {
 		player.send_prompts()
 	}
 
-	state.state = ""
+	state.state = "answerprompts"
 }
 
 function generate_prompts() {
@@ -111,6 +118,9 @@ function generate_prompts() {
 		}
 	}
 }
+
+
+
 
 let prompts_round1 = []
 let prompts_round2 = []
