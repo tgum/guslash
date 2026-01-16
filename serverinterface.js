@@ -1,5 +1,5 @@
 function Loading() {
-	let text = h2("Loading")
+	let text = h1("Loading")
 	setInterval(() => text.textContent += ".", 100)
 	return text
 }
@@ -22,14 +22,17 @@ function Lobby() {
 	}
 
 	return div(
-		h2("GusLash lobby"),
+		h1("Lobby"),
+		button({onclick: () => {
+			navigator.clipboard.writeText(state.id)
+		}}, "click to copy id!"), br(),
 		playerlist
 	)
 }
 
 
 function Timer(amount, callback) {
-	let display = h1(""+amount)
+	let display = p({className: "timer"}, ""+amount)
 	state.timeleft = amount
 
 	let timer = setInterval(() => {
@@ -65,12 +68,10 @@ function AnswerPrompts() {
 	}
 	submittedanswer()
 
-	let timer = Timer(90, () => {
-		console.log("timer over!")
-	})
+	let timer = Timer(90, start_voting)
 
 	return div(
-		h2("answer the prompts on ur deviced"),
+		h1("Answer the prompts on ur devices"),
 		timer,
 		h3("finished"),
 		submitted,
@@ -78,6 +79,132 @@ function AnswerPrompts() {
 		didntsubmit,
 	)
 }
+
+
+function ShowPrompt() {
+	let view = div(
+		h1(state.prompts[state.promptindex].prompt)
+	)
+
+	Timer(3, () => {
+		state.state = "vote"
+	})
+
+	return view
+}
+
+
+let voted = ()=>{}
+function Vote() {
+	let prompt = state.prompts[state.promptindex]
+
+	let timer = Timer(25, () => {
+		state.state = "showvotes"
+	})
+
+	let view = div(
+		timer,
+		h1(prompt.prompt),
+		div({className: "answercontainer"},
+			div({className: "answer"}, prompt.answers[0].answer),
+			div({className: "answer"}, prompt.answers[1].answer),
+		)
+	)
+
+	voted = () => {
+		let allvoted = true
+		for (let player of state.players) {
+			if (!player.hasvoted) {
+				allvoted = false
+				break
+			}
+		}
+		if (allvoted) {
+			state.timeleft = 0
+		}
+	}
+
+	for (let player of state.players) {
+		player.send_vote(prompt.answers.map(x => x.answer))
+	}
+
+	return view
+}
+
+function VotedAnswer(index) {
+	let prompt = state.prompts[state.promptindex]
+
+	let votes = [0, 0]
+	let voters = [[], []]
+	for (let player of state.players) {
+		if (player.hasvoted) {
+			votes[player.votedfor]++
+			voters[player.votedfor].push(player)
+		}
+	}
+
+	let percentage = Math.round((votes[0] / (votes[0] + votes[1])) * 100)
+
+	if (votes[0] == votes[1]) {
+		percentage = 50
+	}
+
+
+	if (index == 1) {
+		percentage = 100 - percentage
+	}
+
+	points = percentage * 10
+	if (percentage > 50) {
+		points += 100
+	}
+	if (prompt.answers[index].safetyquip) {
+		points /= 2
+	}
+	points *= state.round
+	prompt.answers[index].answerer.score += points
+
+	let voterslist = ul()
+	for (let player of voters[index]) {
+		voterslist.append(li(player.name))
+	}
+
+	let view = div(
+		voterslist,
+		percentage, "%", br(),
+		prompt.answers[index].answer, br(),
+		points, " points",
+		hr(),
+	)
+
+	return view
+}
+function ShowVotes() {
+	let prompt = state.prompts[state.promptindex]
+
+	let view = div(
+		h1(state.prompts[state.promptindex].prompt),
+		VotedAnswer(0), br(),
+		VotedAnswer(1)
+	)
+
+	for (let player of state.players) {
+		player.hasvoted = false
+		player.votedfor = -1
+	}
+
+	Timer(5, () => {
+		state.promptindex++
+		if (state.promptindex >= state.prompts.length) {
+			state.state = "scoreboard"
+		} else {
+			state.state = "showprompt"
+		}
+	})
+
+	return view
+}
+
 
 function MainInterface() {
 	let view = div(
@@ -92,11 +219,16 @@ function MainInterface() {
 			view.append(Lobby())
 		} else if (state.state == "answerprompts") {
 			view.append(AnswerPrompts())
+		} else if (state.state == "showprompt") {
+			view.append(ShowPrompt())
+		} else if (state.state == "vote") {
+			view.append(Vote())
+		} else if (state.state == "showvotes") {
+			view.append(ShowVotes())
 		}
 	})
 
 	return div(
-		h1("GusLash host!"),
 		view
 	)
 }

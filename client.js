@@ -36,6 +36,11 @@ function ondata(data) {
 		state.prompts = data.prompts
 		console.log(state.prompts)
 		state.state = "answerprompts"
+	} else if (data.type == "wait") {
+		state.state = "wait"
+	} else if (data.type == "vote") {
+		state.options = data.options
+		state.state = "vote"
 	} else if (data.type == "rejected") {
 		state.connected = false
 		console.log("rejected from server. reason:", data.reason)
@@ -70,5 +75,11 @@ function send_answer(answer) {
 function send_safety() {
 	console.log("sending safety")
 	const packet = basic_packet("safetyquip")
+	state.connection.send(packet)
+}
+function send_voted(index) {
+	console.log("sending voted")
+	const packet = basic_packet("voted")
+	packet.index = index
 	state.connection.send(packet)
 }

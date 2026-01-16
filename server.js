@@ -3,11 +3,12 @@ const familyfriendly = true
 const state = createState({
 	id: "",
 	players: [],
-	namedplayers: "", // Hack to refresh the playerlist when a player gets named
+	prompts: [],
 	state: "loading",
 	round: 1,
 	loaded_prompts: 2,
 	timeleft: 0,
+	promptindex: 0,
 });
 
 let peer = new Peer()
@@ -18,7 +19,7 @@ function peer_loaded(id) {
 	state.id = id
 	state.state = "lobby"
 	console.log("my peerid is: ", id)
-	prompt("This is the id other people can use to connect to your server, please copy it and send it to your friends\n\n", id)
+	//prompt("This is the id other people can use to connect to your server, please copy it and send it to your friends\n\n", id)
 }
 
 function on_connection(conn) {
@@ -65,6 +66,8 @@ function ondata(id, data) {
 			player.answer(data.answer, false)
 		} else if (data.type == "safetyquip" && state.state == "answerprompts") {
 			player.safety()
+		} else if (data.type == "voted" && state.state == "vote") {
+			player.voted(data.index)
 		} else {
 			console.log("unrecognized packet or wrong state, type:", data.type, ", state:", state.state)
 		}
@@ -90,10 +93,13 @@ function generate_prompts() {
 
 	let loop = true
 	while (loop) {
+		state.prompts = []
+
 		let prompts = []
 		for (let i = 0; i < state.players.length; i++) {
 			let p = pool[Math.floor(Math.random()*pool.length)]
 			prompts.push(p)
+			state.prompts.push({prompt: p.prompt, answers: []})
 		}
 		prompts = [...prompts, ...prompts]
 		console.log(prompts)
@@ -119,7 +125,17 @@ function generate_prompts() {
 	}
 }
 
-
+function start_voting() {
+	for (let player of state.players) {
+		player.send_wait()
+		for (let i = 0; i < (player.prompts.length - player.answers.length); i++) {
+			player.safety()
+			console.log("auto safety")
+		}
+	}
+	state.promptindex = 0
+	state.state = "showprompt"
+}
 
 
 let prompts_round1 = []

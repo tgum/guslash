@@ -6,7 +6,7 @@ function Loading() {
 
 function MainMenu() {
 	return div(
-		h2("main menu"),
+		h2("Main Menu"),
 		button({ onclick: () => {
 			location.href = "server.html"
 		}}, "Host a game!"),
@@ -18,13 +18,13 @@ function MainMenu() {
 
 function ConnectMenu() {
 	return div(
-		h2("connect to a game"),
-		button({onclick: ()=>state.state="mainmenu"}, "<- back"), br(),
-		input({placeholder: "your name", id: "name"}), br(),
-		input({placeholder: "server code", id: "serverid"}), br(),
+		h2("Connect to a game"),
+		button({onclick: ()=>state.state="mainmenu"}, "<- Back"),
+		input({placeholder: "Your name", id: "name"}),
+		input({placeholder: "Server code", id: "serverid"}),
 		button({onclick: () => {
 			connect_to($("#serverid").value, $("#name").value)
-		}}, "CONNECT")
+		}}, "Connect")
 	)
 }
 
@@ -33,10 +33,10 @@ function Lobby() {
 		return div(
 			button({onclick: () => {
 				send_start()
-			}}, "everybody's in!")
+			}}, "Everybody's in!")
 		)
 	} else {
-		return div("wait for the vip player to start the game")
+		return div("Wait for the VIP player to start the game")
 	}
 }
 
@@ -48,18 +48,17 @@ function AnswerPrompts() {
 
 	let view = div(
 		container,
-		br(),
 		button({onclick: () => {
 			let answer = $("#promptanswer").value
 			console.log("sending answer")
 			send_answer(answer)
 			state.prompts = state.prompts.slice(1)
-		}}, "submit"),
+		}}, "Submit"),
 		button({onclick: () => {
 			console.log("safety quip :/")
 			send_safety()
 			state.prompts = state.prompts.slice(1)
-		}}, "safety quip")
+		}}, "Safety quip")
 	)
 
 	state.addUpdate("prompts", () => {
@@ -70,12 +69,29 @@ function AnswerPrompts() {
 		} else {
 			view.innerHTML = ""
 			view.append(
-				p("wait for everyone to finish their prompts")
+				p("Wait for everyone to finish writing their prompts")
 			)
 		}
 	})
 
 	return view
+}
+
+function Wait() {
+	return p("Wait for stuff to happen")
+}
+
+function Option(index) {
+	return button({onclick: () => {
+		send_voted(index)
+		state.state = "wait"
+	}}, state.options[index])
+}
+function Vote() {
+	return div(
+		Option(0),
+		Option(1)
+	)
 }
 
 function MainInterface() {
@@ -95,6 +111,10 @@ function MainInterface() {
 			view.append(Lobby())
 		} else if (state.state == "answerprompts") {
 			view.append(AnswerPrompts())
+		} else if (state.state == "wait") {
+			view.append(Wait())
+		} else if (state.state == "vote") {
+			view.append(Vote())
 		}
 	})
 

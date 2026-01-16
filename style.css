@@ -1,0 +1,52 @@
+@font-face {
+	font-family: chillyui;
+	src: url(fonts/chilly-ui/ChillyMedium.ttf);
+}
+@font-face {
+	font-family: dodopop;
+	src: url(fonts/dodopop/DodopopRegularpersonaluse-11dL.otf);
+}
+@font-face {
+	font-family: lollipoptron;
+	src: url(fonts/lollipoptron/Lollipoptron-7GPD.ttf);
+}
+@font-face {
+	font-family: popstarregular;
+	src: url(fonts/popstarregular/POPSTAR.TTF);
+}
+@font-face {
+	font-family: elevation;
+	src: url(fonts/elevation/Elevation.ttf);
+}
+@font-face {
+	font-family: lexend-giga;
+	src: url(fonts/lexend-giga/LexendGiga-Regular.ttf);
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: none;
+}
+
+body {
+	font-family: sans-serif;
+	margin: 1em;
+background: linear-gradient(135deg,  rgba(184,225,252,1) 0%,rgba(169,210,243,1) 10%,rgba(144,186,228,1) 25%,rgba(144,188,234,1) 37%,rgba(107,168,229,1) 50%,rgba(144,191,240,1) 50%,rgba(162,218,245,1) 83%,rgba(189,243,253,1) 100%);
+	text-align: center;
+	font-size: 1.2em;
+	word-break: break-all;
+}
+
+button, input {
+	font-size: 1.1rem;
+
+	display: block;
+	width: 100%;
+	margin: 0.5em 0;
+	border-radius: 0.3em;
+}
+
+button {
+	background-image: linear-gradient(#fff 2%,#ddd 95%, #bbb 100%);
+}

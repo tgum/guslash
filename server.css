@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: none;
+}
+
+body {
+	font-family: sans-serif;
+	margin: 2em 6em;
+background: linear-gradient(135deg,  rgba(184,225,252,1) 0%,rgba(169,210,243,1) 10%,rgba(144,186,228,1) 25%,rgba(144,188,234,1) 37%,rgba(107,168,229,1) 50%,rgba(144,191,240,1) 50%,rgba(162,218,245,1) 83%,rgba(189,243,253,1) 100%);
+	font-size: 1.3em;
+	word-break: break-all;
+}
+
+h1 {
+	text-align: center;
+}
+
+.answercontainer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.answer {
+	background: beige;
+	width: 40%;
+	padding: 2em;
+	text-align: center;
+	font-size: 1em;
+	border-radius: 2em;
+}
+
+.timer {
+	position: absolute;
+	text-align: right;
+	top: 0rem;
+	right: 2rem;
+	font-weight: bold;
+	font-size: 3em;
+}

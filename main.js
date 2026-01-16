@@ -29,5 +29,6 @@ const state = createState({
     player_index: null,
     vip: false,
     prompts: [],
+    options: [],
 });
 document.body.appendChild(MainInterface(state));
