@@ -6,14 +6,14 @@ function Loading() {
 
 
 function LobbyPlayer(player) {
-	return li(
+	return span({className: "player" + (player.vip ? " vip" : "")},
 		`${player.name} ${player.vip ? "(VIP)" : ""}`
 	)
 }
 
 let updatelobby = ()=>{}
 function Lobby() {
-	let playerlist = ol()
+	let playerlist = div({className: "playerlist"})
 	updatelobby = () => {
 		playerlist.innerHTML = ""
 		for (let player of state.players) {
@@ -22,10 +22,10 @@ function Lobby() {
 	}
 
 	return div(
-		h1("Lobby"),
+		h1("Guslash Lobby"),
 		button({onclick: () => {
 			navigator.clipboard.writeText(state.id)
-		}}, "click to copy id!"), br(),
+		}}, "click to copy id!"),
 		playerlist
 	)
 }
@@ -48,8 +48,8 @@ function Timer(amount, callback) {
 
 let submittedanswer = ()=>{}
 function AnswerPrompts() {
-	let submitted = ol()
-	let didntsubmit = ol()
+	let submitted = div({className: "playerlist"})
+	let didntsubmit = div({className: "playerlist"})
 	submittedanswer = () => {
 		submitted.innerHTML = ""
 		didntsubmit.innerHTML = ""
@@ -71,7 +71,7 @@ function AnswerPrompts() {
 	let timer = Timer(90, start_voting)
 
 	return div(
-		h1("Answer the prompts on ur devices"),
+		h1("Answer the prompts on your device"),
 		timer,
 		h3("finished"),
 		submitted,
@@ -106,8 +106,8 @@ function Vote() {
 		timer,
 		h1(prompt.prompt),
 		div({className: "answercontainer"},
-			div({className: "answer"}, prompt.answers[0].answer),
-			div({className: "answer"}, prompt.answers[1].answer),
+			div({className: "answer"}, div({className: "answerbox"}, prompt.answers[0].answer)),
+			div({className: "answer"}, div({className: "answerbox"}, prompt.answers[1].answer)),
 		)
 	)
 
@@ -164,17 +164,19 @@ function VotedAnswer(index) {
 	points *= state.round
 	prompt.answers[index].answerer.score += points
 
-	let voterslist = ul()
+	let voterslist = div({className: "voters"})
 	for (let player of voters[index]) {
-		voterslist.append(li(player.name))
+		voterslist.append(span(player.name))
 	}
 
-	let view = div(
+	let view = div({className: "answer"},
 		voterslist,
-		percentage, "%", br(),
-		prompt.answers[index].answer, br(),
+		div({className: "answerbox"},
+			prompt.answers[index].answer,
+		),
+		percentage, "% ",
 		points, " points",
-		hr(),
+		LobbyPlayer(prompt.answers[index].answerer),
 	)
 
 	return view
@@ -184,8 +186,10 @@ function ShowVotes() {
 
 	let view = div(
 		h1(state.prompts[state.promptindex].prompt),
-		VotedAnswer(0), br(),
-		VotedAnswer(1)
+		div({className: "answercontainer"},
+			VotedAnswer(0),
+			VotedAnswer(1)
+		)
 	)
 
 	for (let player of state.players) {
