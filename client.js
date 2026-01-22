@@ -1,8 +1,10 @@
 function connect_to(server_id, name) {
-	console.log(serverid, name)
+	console.log(server_id, server_id.toUpperCase(), name)
 
 	state.name = name
-	state.server_id = server_id
+	localStorage.setItem("name", name)
+	state.server_id = "tgum-guslash-" + server_id.toUpperCase()
+	console.log(state.server_id)
 
 	state.state = "loading"
 

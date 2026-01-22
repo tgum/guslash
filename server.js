@@ -6,12 +6,19 @@ const state = createState({
 	prompts: [],
 	state: "loading",
 	round: 1,
-	loaded_prompts: 2,
+	loaded_prompts: 3,
 	timeleft: 0,
 	promptindex: 0,
 });
 
-let peer = new Peer()
+let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+let code = ""
+const code_length = 4
+for (let i = 0; i < code_length; i++) {
+	code += alphabet[Math.floor(Math.random() * alphabet.length)]
+}
+
+let peer = new Peer("tgum-guslash-" + code)
 peer.on("open", id => peer_loaded(id))
 peer.on("connection", conn => on_connection(conn))
 
@@ -128,7 +135,8 @@ function generate_prompts() {
 function start_voting() {
 	for (let player of state.players) {
 		player.send_wait()
-		for (let i = 0; i < (player.prompts.length - player.answers.length); i++) {
+		let safeties = (player.prompts.length - player.answers.length)
+		for (let i = 0; i < safeties; i++) {
 			player.safety()
 			console.log("auto safety")
 		}
@@ -137,9 +145,18 @@ function start_voting() {
 	state.state = "showprompt"
 }
 
+function begin_thriplash() {
+	let pool = prompts_thriplash
+	pool = pool.filter(x => !familyfriendly || x.familyfriendly)
+
+	if (state.players.length % 2 == 0) {
+
+	}
+}
 
 let prompts_round1 = []
 let prompts_round2 = []
+let prompts_thriplash = []
 fetch("prompts_round1.json")
 	.then(r=>r.json())
 	.then(r=>{
@@ -153,4 +170,11 @@ fetch("prompts_round2.json")
 		prompts_round2=r
 		state.loaded_prompts--
 		console.log("loaded prompts for round 2")
+	})
+fetch("prompts_thriplash.json")
+	.then(r=>r.json())
+	.then(r=>{
+		prompts_thriplash=r
+		state.loaded_prompts--
+		console.log("loaded prompts for thriplash")
 	})

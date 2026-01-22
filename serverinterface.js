@@ -21,13 +21,30 @@ function Lobby() {
 		}
 	}
 
-	return div(
+	let view = div(
 		h1("Guslash Lobby"),
-		button({onclick: () => {
-			navigator.clipboard.writeText(state.id)
-		}}, "click to copy id!"),
-		playerlist
+		div({style: {display: "flex", justifyContent: "space-around"}},
+			playerlist,
+			div(
+				h1(code),
+				div({id: "qrcode"})
+			),
+		)
 	)
+
+	setTimeout(() => {
+		let path = location.href.split("/")
+		path.pop()
+		path = path.join("/")
+
+		new QRCode("qrcode", {
+			text: path+"?c="+code,
+			colorLight: "#00000000",
+			colorDark: "#272736"
+		});
+	}, 50)
+
+	return view
 }
 
 
@@ -210,6 +227,48 @@ function ShowVotes() {
 }
 
 
+function Scoreboard() {
+	for (let player of state.players) {
+		player.send_wait()
+		player.answers = []
+		player.answeredall = false
+		player.safeanswers = []
+	}
+
+	let playerindex = 0
+
+	let view = div({className: "scoreboard"})
+
+	let sorted_players = state.players.toSorted((a, b) => b.score - a.score)
+
+	let timer = setInterval(() => {
+		if (playerindex >= state.players.length) {
+			clearInterval(timer)
+			state.round++
+			if (state.round == 2) {
+				begin_game()
+			} else if (state.round == 3) {
+				begin_thriplash()
+			} else {
+				console.log("game over i guess")
+			}
+		} else {
+			let player = sorted_players[playerindex]
+			view.append(
+				LobbyPlayer(player),
+				player.score
+			)
+			playerindex++
+		}
+	}, 1000)
+
+	return div(
+		h1("Scoreboard:"),
+		view
+	)
+}
+
+
 function MainInterface() {
 	let view = div(
 		Loading()
@@ -229,6 +288,8 @@ function MainInterface() {
 			view.append(Vote())
 		} else if (state.state == "showvotes") {
 			view.append(ShowVotes())
+		} else if (state.state == "scoreboard") {
+			view.append(Scoreboard())
 		}
 	})
 

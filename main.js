@@ -32,3 +32,9 @@ const state = createState({
     options: [],
 });
 document.body.appendChild(MainInterface(state));
+
+let params = new URLSearchParams(location.search)
+let code = params.get("c") || ""
+if (code.length == 4) {
+	state.state = "connectmenu"
+}

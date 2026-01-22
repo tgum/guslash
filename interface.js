@@ -20,8 +20,8 @@ function ConnectMenu() {
 	return div(
 		h2("Connect to a game"),
 		button({onclick: ()=>state.state="mainmenu"}, "<- Back"),
-		input({placeholder: "Your name", id: "name"}),
-		input({placeholder: "Server code", id: "serverid"}),
+		input({placeholder: "Your name", id: "name", value: localStorage.getItem("name") || ""}),
+		input({placeholder: "Server code", id: "serverid", value: code}),
 		button({onclick: () => {
 			connect_to($("#serverid").value, $("#name").value)
 		}}, "Connect")
