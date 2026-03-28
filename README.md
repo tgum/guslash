@@ -2,6 +2,8 @@
 
 this is a clone of quiplash made in javascript :)
 
+its basically a party game where everyone answer some prompts on their devices and then everyone else votes on the funniest!
+
 ## How to play?
 
 Everyone playing needs to join on their phone (or other device) and you need a host which is usually a computer connected to a TV or something.
